@@ -1,9 +1,8 @@
-
-
-print('hello world!')
-
 x = input('Enter your name: ')
+quit = input("Enter quit to exit")
 
-print('Thank you', x)
+while x != quit:
+    print('hello world!')
+    print('Thank you', x)
 
 
